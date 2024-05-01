@@ -1,0 +1,337 @@
+
+#head{
+    display: flex;
+    height: 75px;
+    justify-content: left;
+    /* // boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px" */
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+
+#goal-opt {
+    display: grid;
+    gap: 5px;
+    /* width: 80%;
+    margin: auto; */
+}
+#steps_heading{
+    margin-bottom: -380px;
+    margin-top:-20px;
+}
+#steps_heading p{
+    width: 80%;
+    margin: auto;
+   
+    text-align: center;
+    font-family: Inter, Helvetica, Arial, -apple-system, sans-serif;
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 1.5;
+}
+#goal_heading{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: Inter, Helvetica, Arial, -apple-system, sans-serif;
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 1.5;
+}
+#goal_heading1{
+    width: 80%;
+    margin: auto;
+    margin-top:-30px;
+    text-align: center;
+    font-family: Inter, Helvetica, Arial, -apple-system, sans-serif;
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 1.5;
+
+}
+#goal-opt button{
+    border: 2px solid rgb(188, 188, 192);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    margin: 2px 0px;
+    padding: 14px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 5px;
+}
+
+#backbtn button:hover{
+    background-color: #f4f7ff ;
+    border: 2px solid #1943cf;
+}
+
+#backbtn button{
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 181px;
+    margin-right: 16px;
+    height: 56px;
+    box-sizing: inherit;
+    text-decoration: none;
+    border: 2px solid rgb(0, 102, 238);
+    color: rgb(0, 102, 238);
+    border-radius: 4px;
+    height: 56px;
+    max-width: 181px;
+    padding: 0px 50px;
+    background-color: white ;
+    
+}
+
+#nextbtn button{
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 181px;
+    margin-right: 16px;
+    height: 56px;
+    box-sizing: inherit;
+    text-decoration: none;
+    border: 2px solid rgb(0, 102, 238);
+    color: white;
+    background-color: rgb(0, 102, 238) ;
+    border-radius: 4px;
+    height: 56px;
+    max-width: 181px;
+    padding: 0px 50px;
+}
+
+#nextbtn button:hover{
+    background-color: #1943cf ;
+    border: 2px solid #1943cf;
+}
+
+#backbtn button:hover{
+    background-color: #f4f7ff ;
+    border: 2px solid #1943cf;
+}
+
+#goal-opt button.clicked {
+    border: 2px solid rgb(0, 102, 238);
+    color: rgb(0, 102, 238);
+}
+
+#goal-opt button:hover{
+    border: 2px solid rgb(89, 89, 92);
+}
+#mainDivG{
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+    height: 630px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-Radius: 15px;
+    text-align: center;
+}
+#mainDivX{
+     width: 25%;
+    margin: auto;
+    padding: 30px;
+    height: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-Radius: 15px;
+    text-align: center;
+}
+#mainDivB{
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+    height: 650px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-Radius: 15px;
+    text-align: center;
+    /* border: 1px solid gray; */
+}
+
+#mainDivB p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+#steps_heading h3{
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+}
+
+#mainDivS {
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+    height: 480px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-Radius: 15px;
+    text-align: center;
+    /* border: 1px solid gray; */
+}
+
+
+#mainDivB {
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+    height: 450px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-Radius: 15px;
+    text-align: center;
+}
+
+#mainDivP {
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+    height: 600px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-Radius: 15px;
+    text-align: center;
+    /* border: 1px solid gray; */
+}
+
+#g_select{
+    border: 2px solid rgb(188, 188, 192);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    margin: 2px 0px;
+    padding: 14px;
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    border-radius: 5px;
+    opacity: 70%;
+}
+
+#birthData{
+    border: 2px solid rgb(188, 188, 192);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    margin: 2px 0px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    border-radius: 5px;
+    opacity: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#country_select{
+    border: 2px solid rgb(188, 188, 192);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    margin: 20px 0px;
+    padding: 14px;
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    border-radius: 5px;
+    opacity: 70%;
+    margin-bottom: 50px;
+}
+
+.c{
+    padding: 20px 15px;
+    font-size: 20px;
+    font-size: 500;
+}
+.ht_div{
+    display: flex;
+}
+
+#ht{
+    border: 2px solid rgb(188, 188, 192);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    margin: 20px 0px;
+    padding: 14px;
+    background-color: rgb(255, 255, 255);
+    width: 55%;
+    border-radius: 5px;
+    opacity: 70%;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#mainDivP2 {
+    width: 25%;
+    margin: auto;
+    padding: 30px;
+    height: 600px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-Radius: 15px;
+    text-align: center;
+    /* border: 1px solid gray; */
+}
+
+#mainDivP2 p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+#PD2_heading h3{
+    font-size: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: center;
+}
+#PD2_heading2{
+    margin-bottom:-400px;
+}
+
+#mainDivY{
+    
+    width: 25%;
+    margin: auto;
+    margin-top:150px;
+    padding: 30px;
+    height: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-Radius: 15px;
+    text-align: center;
+}
+
+#username{
+    border: 2px solid rgb(188, 188, 192);
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    margin: 20px 0px;
+    padding: 14px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 5px;
+    opacity: 70%;
+    margin-bottom: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
